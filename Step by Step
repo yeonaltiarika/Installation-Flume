@@ -1,0 +1,15 @@
+This Step is based on my setting in Terminal, I hope you know where you HOME DIRECTORY
+Firstly you should download apache flume in the official website
+
+or you can type brew install flume
+
+nadess-MBP:~ leeheeyeon$ cd Downloads
+nadess-MBP:Downloads leeheeyeon$ tar -xvzf apache-flume-1.7.0-bin.tar.gz
+
+It will extract apache-flume-1.7.0-bin.tar.gz
+
+and then 
+
+nadess-MBP:Downloads leeheeyeon$ open -a Finder /usr/local/bin
+
+your /usr/local/bin will open automatically, it will make easy to put 
