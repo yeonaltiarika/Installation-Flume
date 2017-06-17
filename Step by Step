@@ -12,4 +12,12 @@ and then
 
 nadess-MBP:Downloads leeheeyeon$ open -a Finder /usr/local/bin
 
-your /usr/local/bin will open automatically, it will make easy to put 
+your /usr/local/bin will open automatically, it will make easy to put  the apache-flume-1.7.0-bin directory inside the /usr/lib/ directory 
+
+nadess-MBP:Downloads leeheeyeon$ sudo mv apache-flume-1.7.0-bin /usr/local/lib/
+Password:(type your password)
+nadess-MBP:Downloads leeheeyeon$ 
+
+Download flume-sources-1.0-SNAPSHOT.jar and put it in library directory of apache flume
+
+Move the flume-sources-1.0-SNAPSHOT.jar file from Downloads directory to lib directory of apache flume
