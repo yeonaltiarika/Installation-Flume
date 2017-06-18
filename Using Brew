@@ -1,0 +1,76 @@
+nadess-MBP:Downloads leeheeyeon$ brew install flume
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 3 taps (caskroom/cask, caskroom/versions, homebrew/core).
+==> New Formulae
+dcm2niix            get_iplayer         ipython             jose                overmind            vips
+fd                  iamy                ipython@5           libmypaint          rustup-init
+==> Updated Formulae
+abcl                    dnsmasq                 hyperscan               mikmod                  rmlint
+afl-fuzz                doctl                   ibex                    mikutter                rtv
+allure                  docutils                imagemagick             miller                  rust
+angular-cli             dosbox                  imagemagick@6           minio                   s6
+ant@1.9                 dosbox-x                ios-sim                 minio-mc                saxon
+apache-zeppelin ✔       dovecot                 irssi                   moco                    sdl2_mixer
+apktool                 druid                   isync                   monetdb                 shellshare
+arangodb                easyrpg-player          jansson                 monit                   sjk
+archi-steam-farm        efl                     jboss-forge             msgpack                 sourcery
+armor                   elixirscript            jemalloc                mvtools                 sphinx-doc
+artifactory             enigma                  jenkins                 ncmpc                   sqldiff
+aws-sdk-cpp             etcd                    jhipster                ncmpcpp                 sqlite ✔
+awscli                  fabio                   jruby                   ndpi                    sqlite-analyzer
+azure-cli               fabric                  jsonschema2pojo         netpbm                  squid
+basex                   fetch-crl               juju                    nifi                    storm
+binaryen                fibjs                   kibana@4.1              nmap                    supertux
+bind                    fio                     knot                    node                    syncthing
+bitrise                 fits                    knot-resolver           node-build              syncthing-inotify
+blackbox                flatbuffers             kops                    node@4                  tbb
+bluepill                flow                    kotlin                  node@6                  telegraf
+cake                    fluent-bit              kubernetes-cli          nspr                    teleport
+calc                    fmt                     lastpass-cli            numpy                   terraform
+cargo-completion        fobis                   latexila                onscripter              terragrunt
+certbot                 folly                   leaps                   openh264                tor
+chakra                  fontconfig              libbluray               openldap                translate-toolkit
+chkrootkit              freetds                 libepoxy                osh                     twine-pypi
+chromedriver            fsql                    libextractor            osquery                 ufoai
+chronograf              fzf                     libhttpseverywhere      paket                   unbound
+cockroach               galen                   libmikmod               passenger               unrar
+collectd                gammaray                libnfs                  pdnsrec                 urh
+colordiff               geckodriver             liboping                percona-server          valgrind
+conan                   gegl                    libphonenumber          pgcli                   vault
+consul                  getdns                  libraw                  phoronix-test-suite     vert.x
+consul-backinator       git-annex               libtensorflow           pilosa                  vim
+convox                  git-town                libtermkey              ponscripter-sekai       wesnoth
+ctop                    gjs                     libzzip                 postgrest               whois
+curl                    gnutls                  lincity-ng              prometheus              wine
+davmail                 goofys                  logtalk                 pyenv                   winetricks
+dbhash                  gradle                  lolcat                  pyinvoke                wireguard-tools
+dcos-cli                harfbuzz                luvit                   pypy                    wireshark
+debianutils             heroku                  mediaconch              pypy3                   xonsh
+dialog                  huexpress               menhir                  rbenv                   youtube-dl
+diff-so-fancy           hugo                    meson                   rebar@3
+dnscrypt-wrapper        hyper                   micropython             riemann-client
+==> Deleted Formulae
+snescom
+
+==> Installing dependencies for flume: hadoop
+==> Installing flume dependency: hadoop
+==> Using the sandbox
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=hadoop/common/hadoop-2.8.0/hadoop-2.8.0.tar.gz
+==> Best Mirror http://www-eu.apache.org/dist/hadoop/common/hadoop-2.8.0/hadoop-2.8.0.tar.gz
+######################################################################## 100.0%
+==> Caveats
+In Hadoop's config file:
+  /usr/local/opt/hadoop/libexec/etc/hadoop/hadoop-env.sh,
+  /usr/local/opt/hadoop/libexec/etc/hadoop/mapred-env.sh and
+  /usr/local/opt/hadoop/libexec/etc/hadoop/yarn-env.sh
+$JAVA_HOME has been set to be the output of:
+  /usr/libexec/java_home
+==> Summary
+🍺  /usr/local/Cellar/hadoop/2.8.0: 25,169 files, 2.1GB, built in 22 minutes 11 seconds
+==> Installing flume
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=flume/1.6.0/apache-flume-1.6.0-bin.tar.gz
+==> Best Mirror http://www-us.apache.org/dist/flume/1.6.0/apache-flume-1.6.0-bin.tar.gz
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/flume/1.6.0: 1,497 files, 77.8MB, built in 2 minutes 15 seconds
+nadess-MBP:Downloads leeheeyeon$ 
